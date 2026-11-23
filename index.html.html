@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um guia visual sobre som e decibéis, com exemplos de níveis sonoros em diferentes lugares.">
+  <title>Som em foco | Entenda os decibéis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Som em foco, início"><span class="brand-mark">♪</span> SOM<span>EM FOCO</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#decibeis">Decibéis</a><a href="#lugares">Níveis por lugar</a><a class="nav-cta" href="#laboratorio">Ver laboratório <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> UM GUIA PARA OUVIR O AMBIENTE</p>
+        <h1>O som conta<br>uma <em>história.</em></h1>
+        <p class="hero-description">De uma sala silenciosa ao movimento de uma escola: descubra como os decibéis ajudam a entender o volume dos lugares ao nosso redor.</p>
+        <a class="button" href="#lugares">Explore os níveis <span>↓</span></a>
+        <div class="hero-note"><span class="note-icon">i</span><span>Os valores variam conforme o ambiente,<br>o horário e a distância da fonte sonora.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração de ondas sonoras coloridas">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="sound-card"><div class="sound-card-top"><span>PAISAGEM SONORA</span><span class="live-dot">● AO VIVO</span></div><div class="waveform" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="wave-label"><span>silêncio</span><span>som</span><span>ruído</span></div></div>
+        <div class="floating-tag tag-db"><span class="tag-dot"></span> DECIBÉIS <strong>dB</strong></div>
+        <div class="floating-tag tag-frequency">〰 <span>som em movimento</span></div>
+        <div class="art-caption">CADA LUGAR TEM<br>SUA PRÓPRIA VOZ.</div>
+      </div>
+      <div class="hero-bottom"><span>01 — SOM E COTIDIANO</span><span>ROLE PARA EXPLORAR&nbsp; ↓</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="decibeis">
+      <div class="section-kicker">01 / ENTENDA A MEDIDA</div>
+      <div class="intro-content"><h2>O que são<br><em>decibéis?</em></h2><div><p>O decibel, representado por <strong>dB</strong>, é uma unidade usada para expressar o nível de intensidade de um som. Quanto maior o número, mais intenso tende a ser o som percebido.</p><p class="muted">A escala é logarítmica: uma pequena diferença numérica pode representar uma mudança importante na intensidade sonora. Por isso, os valores servem como referência e não como uma medida linear.</p><div class="scale"><div class="scale-head"><span>ESCALA DE REFERÊNCIA</span><span>0 dB <b>→</b> 100 dB</span></div><div class="scale-bar"><span></span></div><div class="scale-ends"><span>mais tranquilo</span><span>mais intenso</span></div></div></div></div>
+    </section>
+
+    <section class="places" id="lugares">
+      <div class="section-wrap places-inner">
+        <div class="places-heading"><div><div class="section-kicker light">02 / O SOM DOS LUGARES</div><h2>Uma volta pelo<br><em>mundo sonoro.</em></h2></div><p>Estimativas para comparar cenários do cotidiano.<br>O nível real muda de um momento para outro.</p></div>
+        <div class="place-list">
+          <article class="place-row"><div class="place-name"><span class="place-icon">⌂</span><div><strong>Biblioteca tranquila</strong><small>páginas, passos e sussurros</small></div></div><div class="place-meter"><div class="meter-track"><span style="--start:0%;--width:22%"></span></div><small>faixa ilustrativa</small></div><div class="place-values"><span><b>30</b> dB mín.</span><span><b>40</b> dB média</span><span><b>50</b> dB máx.</span></div><div class="place-peak">50 <small>dB</small></div></article>
+          <article class="place-row"><div class="place-name"><span class="place-icon">☕</span><div><strong>Cafeteria movimentada</strong><small>conversas e utensílios</small></div></div><div class="place-meter"><div class="meter-track"><span style="--start:22%;--width:24%"></span></div><small>faixa ilustrativa</small></div><div class="place-values"><span><b>55</b> dB mín.</span><span><b>65</b> dB média</span><span><b>75</b> dB máx.</span></div><div class="place-peak">75 <small>dB</small></div></article>
+          <article class="place-row"><div class="place-name"><span class="place-icon">▤</span><div><strong>Sala de aula em atividade</strong><small>alunos conversando e participando</small></div></div><div class="place-meter"><div class="meter-track"><span style="--start:32%;--width:30%"></span></div><small>faixa ilustrativa</small></div><div class="place-values"><span><b>60</b> dB mín.</span><span><b>70</b> dB média</span><span><b>80</b> dB máx.</span></div><div class="place-peak">80 <small>dB</small></div></article>
+          <article class="place-row"><div class="place-name"><span class="place-icon">♬</span><div><strong>Show com música amplificada</strong><small>som intenso perto das caixas</small></div></div><div class="place-meter"><div class="meter-track"><span class="hot" style="--start:60%;--width:38%"></span></div><small>faixa ilustrativa</small></div><div class="place-values"><span><b>85</b> dB mín.</span><span><b>95</b> dB média</span><span><b>105</b> dB máx.</span></div><div class="place-peak hot-text">105 <small>dB</small></div></article>
+        </div>
+        <p class="source-note">* Exemplos gerais e aproximados, apresentados apenas para comparação. As condições de medição alteram os resultados.</p>
+      </div>
+    </section>
+
+    <section class="lab section-wrap" id="laboratorio">
+      <div class="lab-top"><div><div class="section-kicker">03 / DESTAQUE DA ESCOLA</div><h2>O laboratório<br>em <em>primeiro plano.</em></h2></div><div class="lab-description"><span class="lab-chip"><span></span> EXEMPLO PRINCIPAL</span><p>Entre teclados, conversas e atividades em grupo, o laboratório de informática tem uma paisagem sonora própria.</p></div></div>
+      <div class="lab-card"><div class="lab-card-head"><div><span class="card-overline">LABORATÓRIO DE INFORMÁTICA</span><h3>Som durante<br>as atividades</h3></div><div class="db-badge">dB</div></div>
+        <div class="lab-visual"><div class="lab-axis"><span>40</span><span>60</span><span>80</span><span>100 dB</span></div><div class="lab-track"><div class="lab-fill"></div><span class="marker marker-min"><i></i><b>54</b><small>MÍNIMA</small></span><span class="marker marker-avg"><i></i><b>73</b><small>MÉDIA ESTIMADA</small></span><span class="marker marker-max"><i></i><b>88</b><small>MÁXIMA</small></span></div><div class="lab-track-caption"><span>ambiente mais calmo</span><span>atividade mais intensa</span></div></div>
+        <div class="lab-stats"><div><span>REGISTRO MÍNIMO</span><strong>54 <small>dB</small></strong></div><div class="stat-highlight"><span>MÉDIA ESTIMADA</span><strong>73 <small>dB</small></strong></div><div><span>REGISTRO MÁXIMO</span><strong>88 <small>dB</small></strong></div></div>
+        <div class="lab-foot"><span class="pulse"></span> A intensidade pode variar conforme o número de pessoas e a atividade.</div>
+      </div>
+      <div class="lab-bottom-note"><span>54 — 73 — 88</span><p>Três momentos diferentes.<br>Uma mesma sala.</p><span class="note-arrow">↗</span></div>
+    </section>
+
+    <section class="takeaway"><div class="takeaway-inner"><span class="quote-mark">“</span><div><p>Prestar atenção ao som é também<br>prestar atenção ao <em>espaço.</em></p><span>OBSERVE • COMPARE • ESCUTE</span></div><div class="takeaway-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></section>
+  </main>
+  <footer><a class="brand" href="#inicio"><span class="brand-mark">♪</span> SOM<span>EM FOCO</span></a><span>UM OLHAR SOBRE O SOM NO DIA A DIA</span><a href="#inicio">VOLTAR AO TOPO ↑</a></footer>
+</body>
+</html>
